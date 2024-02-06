@@ -1,0 +1,214 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+#nav{
+    height: 10vh;
+    width: 100%;
+    display: flex;
+    /* position: fixed; */
+    box-shadow: 0px 0px 10px 1px gray;
+    justify-content: space-evenly;
+    /* background-color: cadetblue; */
+}
+#nav #logo{
+    height: 100%;
+    width: 10%;
+    display: flex;
+    justify-content: space-around;
+   }
+#nav #logo #logo_menu i{
+    font-size: 30px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+#nav #logo #youtubelogo img{
+    height: 100%;
+    width: 100%;
+}
+#nav #input{
+    height: 100%;
+    width: 40%;
+    display: flex;
+    align-items: center;
+    /* background-color: yellow;  */
+}
+#nav #input input{
+    height: 60%;
+    width: 90%;
+    border-radius: 10px 0px 0px 10px;
+    font-size: 15px;
+    padding: 10px;
+    border: 1px solid gray;
+    border-right: none;
+}
+#nav #input button{
+    height: 60%;
+    width: 50px;
+    font-size: 20px;
+    cursor: pointer;
+    /* border: none; */
+    border-left: none;
+    outline: none;
+    border-top: 1px solid black;
+    border-right: 1px solid black;
+    border-bottom: 1px solid black;
+    border-radius: 0px 12px 10px 0px;
+    outline: none;
+    background-color: white;
+}
+#nav #miceicon{
+    height: 100%;
+    width: 5%;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    /* background-color: green; */
+}
+#nav #miceicon button{
+    height: 75%;
+    width: 70%;
+    border-radius: 50%;
+    border: none;
+}
+#nav #miceicon button i{
+    font-size: 20px;
+}
+#nav #dp_notification_videoicon{
+    height: 100%;
+    width: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    /* background-color: yellow; */
+}
+#nav #dp_notification_videoicon button{
+    height: 60%;
+    background: transparent;
+    border: none;
+    outline: none;
+    width: 20%;
+}
+#nav #dp_notification_videoicon button img{
+  height: 100%;
+  width: 50%;
+  border-radius: 50%;
+  border: 2px solid black;
+}
+#nav #dp_notification_videoicon button i{
+    font-size: 20px;
+}
+#sidedivicon{
+    height: 60vh;
+    /* margin-top: 5px; */
+    width: 15%;
+    position: fixed;
+    /* border-right: 0.5px solid black; */
+    box-shadow: 3px 3px 3px 0.1px gray;
+    /* background-color: cyan; */
+}
+#sidedivicon ul{
+    height: 100%;
+    width: 100%;
+    position: absolute;
+}
+#sidedivicon ul li{
+    margin: 10px;
+    padding: 5px;
+    display: flex;
+    background-color:transparent;
+    border-radius: 5px;
+    /* box-shadow: 0px 0px 3px 1px gray; */
+    justify-content: space-between;
+}
+#sidedivicon ul li i{
+    font-size: 20px;
+}
+#sidedivicon ul li a{
+    font-size: 18px;
+    color: black;
+   float: inline-start;
+}
+#sidedivicon ul li .greter{
+    font-size: 15px;
+    margin: 8px;
+}
+#headbtn{
+    height: 90vh;
+    width: 100%;
+    display: block;
+    position: relative;
+    /* background-color: cyan; */
+}
+#headbtn #head_btn_head{
+    height: 10vh;
+    width: 85%;
+    margin-left: 15%;
+    /* background-color: maroon; */
+    justify-content: space-around;
+    display: flex;
+    align-items: center;
+}
+#headbtn #head_btn_head button{
+    height: 30px;
+    margin: 5px;
+    padding: 5px;
+    background: rgb(202, 191, 191);
+    border-radius: 5px;
+    border: none;
+    box-shadow: 0px 0px 2px 1px black;
+}
+#headbtn #videos_s{
+    height: 83%;
+    width: 80%;
+    /* background-color: red; */
+    margin-left: 16%;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 1%;
+    justify-content: space-around;
+}
+#headbtn #videos_s #video_cart{
+   width: 27%;
+   height: 30vh;
+   /* background-color: blue; */
+   margin-top: 2%;
+}
+#headbtn #videos_s #video_cart #video_body{
+    height: 75%;
+    width: 100%;
+    /* background-color: yellow; */
+}
+#headbtn #videos_s #video_cart #video_name{
+ height: 25%;
+ width: 100%;
+ /* margin-left: 10%; */
+ display: flex;
+    /* justify-content: space-evenly; */
+    align-items: center;
+ background-color: rgb(177, 169, 169);
+}
+#headbtn #videos_s #video_cart #video_name
+#channel_logo{
+    height: 80%;
+    width:15%;
+    /* margin-right: 20%; */
+    margin: 10px;
+}
+#headbtn #videos_s #video_cart #video_name
+#channel_logo img{
+    height: 100%;
+    width: 100%;
+    border: 2px solid red;
+    border-radius: 50%;
+}
+#headbtn #videos_s #video_cart #video_name #title_video h3{
+    color: maroon;
+}
+#headbtn #videos_s #video_cart #video_body video{
+    height: 100%;
+    width: 100%;
+}
